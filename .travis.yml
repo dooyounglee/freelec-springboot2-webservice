@@ -9,7 +9,7 @@ branches:
 # Travis CI 서버의 Home
 cache:
   directories:
-    - '$HOME/.m2/repository
+    - '$HOME/.m2/repository'
     - '$HOME/.gradle'
 
 script: ".gradlew clean build"
@@ -18,4 +18,4 @@ script: ".gradlew clean build"
 notifications:
   email:
     recipients:
-      - gostbaducking1@nate.com
+      - 'gostbaducking1@nate.com'
