@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.205s</div>
+<div class="counter">0.492s</div>
 <p>duration</p>
 </div>
 </td>
@@ -79,7 +79,7 @@
 </thead>
 <tr>
 <td class="success">메인페이지_로딩</td>
-<td class="success">0.205s</td>
+<td class="success">0.492s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,12 +87,15 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>2020-05-24 21:54:20.827  INFO 9076 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jojoldu.book.springboot.web.IndexControllerTest], using SpringBootContextLoader
-2020-05-24 21:54:20.829  INFO 9076 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jojoldu.book.springboot.web.IndexControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
-2020-05-24 21:54:20.830  INFO 9076 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jojoldu.book.springboot.web.IndexControllerTest]: IndexControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2020-05-24 21:54:20.833  INFO 9076 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jojoldu.book.springboot.Application for test class com.jojoldu.book.springboot.web.IndexControllerTest
-2020-05-24 21:54:20.835  INFO 9076 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
-2020-05-24 21:54:20.836  INFO 9076 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@16be209, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@b1f120, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1fc0a1, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48a601, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2d646b, org.springframework.test.context.transaction.TransactionalTestExecutionListener@122bdbf, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1e67932, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@45a2a1, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@1a086be, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@1cd0770, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@1b8ded2, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@7730ee]
+<pre>2020-05-24 23:14:23.521  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.jojoldu.book.springboot.web.IndexControllerTest], using SpringBootContextLoader
+2020-05-24 23:14:23.524  INFO 12232 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.jojoldu.book.springboot.web.IndexControllerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2020-05-24 23:14:23.524  INFO 12232 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.jojoldu.book.springboot.web.IndexControllerTest]: IndexControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2020-05-24 23:14:23.527  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.jojoldu.book.springboot.Application for test class com.jojoldu.book.springboot.web.IndexControllerTest
+2020-05-24 23:14:23.528  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener, org.springframework.security.test.context.support.ReactorContextTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2020-05-24 23:14:23.529  INFO 12232 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@1c3d323, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@1eafddf, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1576492, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@7c3a86, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1cda621, org.springframework.test.context.transaction.TransactionalTestExecutionListener@189b7c2, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1be2895, org.springframework.security.test.context.support.WithSecurityContextTestExecutionListener@9d9aae, org.springframework.security.test.context.support.ReactorContextTestExecutionListener@8dc9f2, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@3645c6, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@b83215, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@129306, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@5c17af, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@987497]
+2020-05-24 23:14:23.874  INFO 12232 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-05-24 23:14:23.874  INFO 12232 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-05-24 23:14:23.879  INFO 12232 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
 Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, posts0_.modified_date as modified3_0_, posts0_.author as author4_0_, posts0_.content as content5_0_, posts0_.title as title6_0_ from posts posts0_ order by posts0_.id DESC
 </pre>
 </span>
@@ -105,7 +108,7 @@ Hibernate: select posts0_.id as id1_0_, posts0_.created_date as created_2_0_, po
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 4.10.2</a> at 2020. 5. 24 오후 9:54:25</p>
+<a href="http://www.gradle.org">Gradle 4.10.2</a> at 2020. 5. 24 오후 11:14:28</p>
 </div>
 </div>
 </body>
