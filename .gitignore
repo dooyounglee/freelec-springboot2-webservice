@@ -2,8 +2,8 @@
 
 /.gradle/
 /.idea/
-/.build/
-build
+/build/
+build/
 application-oauth.properties
 
 
