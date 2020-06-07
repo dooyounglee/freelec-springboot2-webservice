@@ -54,4 +54,4 @@ deploy:
 notifications:
   email:
     recipients:
-      - 'gostbaducking1@nate.com'
+      - gostbaducking1@nate.com
